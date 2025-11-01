@@ -1,0 +1,65 @@
+body {
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    font-family: "Poppins", sans-serif;
+    color: #e0e0e0;
+}
+
+/* Streamlit title */
+h1, h2, h3 {
+    color: #ffffff;
+    text-align: center;
+    font-weight: 600;
+}
+
+/* Center everything */
+[data-testid="stAppViewContainer"] {
+    background: linear-gradient(120deg, #141e30, #243b55);
+}
+
+/* Input field */
+.stTextInput input {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 0.7em;
+    font-size: 1em;
+    transition: all 0.3s ease;
+}
+
+.stTextInput input:focus {
+    border-color: #00c6ff;
+    box-shadow: 0 0 8px #00c6ff;
+}
+
+/* Button */
+.stButton button {
+    background: linear-gradient(90deg, #00c6ff, #0072ff);
+    color: white;
+    border-radius: 12px;
+    border: none;
+    padding: 0.6em 1.4em;
+    font-weight: 600;
+    font-size: 1em;
+    transition: all 0.3s ease;
+}
+
+.stButton button:hover {
+    transform: scale(1.05);
+    background: linear-gradient(90deg, #0072ff, #00c6ff);
+    box-shadow: 0 0 12px rgba(0, 198, 255, 0.6);
+}
+
+/* Recommendation text */
+.stMarkdown p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+/* Sidebar styling */
+[data-testid="stSidebar"] {
+    background: rgba(15, 25, 35, 0.95);
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+}
+

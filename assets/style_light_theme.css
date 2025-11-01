@@ -1,0 +1,27 @@
+body {
+    background: linear-gradient(135deg, #fdfbfb, #ebedee);
+    font-family: "Poppins", sans-serif;
+    color: #333;
+}
+
+.stTextInput input {
+    background-color: #ffffff;
+    border-radius: 12px;
+    border: 1px solid #ccc;
+    padding: 0.7em;
+}
+
+.stButton button {
+    background: linear-gradient(90deg, #89f7fe, #66a6ff);
+    color: #000;
+    border-radius: 12px;
+    border: none;
+    padding: 0.6em 1.4em;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.stButton button:hover {
+    transform: scale(1.05);
+}
+
