@@ -48,8 +48,8 @@ This approach was chosen intentionally to:
 ### Step 1: Clone the repository
 
 ```bash
-git clone <repo-url>
-cd <project-folder>
+git clone https://github.com/Princess0407/YCR.git
+cd YCR
 ```
 ### Step 2: Create and activate a virtual environment
 ```
